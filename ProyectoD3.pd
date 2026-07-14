@@ -388,7 +388,7 @@
 #X msg 240 21 devices;
 #X text 408 41 Reemplazar el "#" por tu puerto COM \, para más información leer el archivo README.md del repositorio de github;
 #X msg 789 363 open Prueba.wav;
-#X obj 240 45 comport/comport 5 9600;
+#X obj 240 45 comport/comport # 9600;
 #X connect 0 0 1 0;
 #X connect 0 0 2 0;
 #X connect 0 0 3 0;
